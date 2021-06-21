@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Reset styles */
+@import url(./vendor/normalize.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Application styles */
+@import url(./components/App/App.css);
+
+/* Header component */
+@import url(./components/Header/Header.css);
+
+/* Main component */
+@import url(./components/Main/Main.css);
+
+/* Promo component */
+@import url(./components/Promo/Promo.css);
+
+/* NavTab component */
+@import url(./components/NavTab/NavTab.css);
+
+/* AboutProject component */
+@import url(./components/AboutProject/AboutProject.css);
+
+/* Techs component */
+@import url(./components/Techs/Techs.css);
+
+/* AboutMe component */
+@import url(./components/AboutMe/AboutMe.css);
+
+/* Profile component */
+@import url(./components/Portfolio/Portfolio.css);
+
+/* Movies component */
+@import url(./components/Movies/Movies.css);
+
+/* SearchForm component */
+@import url(./components/SearchForm/SearchForm.css);
+
+/* Footer component */
+@import url(./components/Footer/Footer.css);
