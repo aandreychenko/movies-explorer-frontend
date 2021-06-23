@@ -20,12 +20,17 @@ export default function Header() {
           <header className="header header_theme_light">
             <img className="header__logo" src={logoMoviesPath} alt="Логотип 'Мувис Эксплорера'" />
             <div className="header__container">
-              <Link to="/signup" 
-              className="header__info header__info_type_link header__info-link_theme_light">Фильмы</Link>
-              <Link to="/signup" 
-              className="header__info header__info-link_theme_light header__info-link_theme_light">Сохранённые фильмы</Link>
-              <Link to="/signup" 
-              className="header__info header__info-link_theme_light header__info-link_theme_light">Аккаунт</Link>
+              <div className="header__container-item">
+                <Link to="/movies" 
+                className="header__info header__info_type_link header__info-link_theme_light">Фильмы</Link>
+                <Link to="/saved-movies" 
+                className="header__info header__info-link_theme_light header__info-link_theme_light">Сохранённые фильмы</Link>
+              </div>
+              <div className="header__container-item">
+                <Link to="/profile" 
+                className="header__info header__info-account header__info-link_theme_light">Аккаунт</Link>
+                <div className="header__info-account-logo"></div>
+              </div>
             </div>
           </header>
         </Route>

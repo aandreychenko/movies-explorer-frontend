@@ -1,0 +1,26 @@
+.movies-card-list {
+  margin: 70px auto 0 auto;
+	max-width: 1140px;
+}
+
+.movies-card-list__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.movies-card-list__cut {
+  display: flex;
+  margin: 50px auto 80px auto;
+  background-color: #f9f9f9;
+  min-height: 36px;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  width: 100%;
+}
+
+.movies-card-list__cut-text {
+  font-size: 12px;
+}

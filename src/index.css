@@ -34,5 +34,11 @@
 /* SearchForm component */
 @import url(./components/SearchForm/SearchForm.css);
 
+/* MoviesCardList component */
+@import url(./components/MoviesCardList/MoviesCardList.css);
+
+/* MoviesCard component */
+@import url(./components/MoviesCard/MoviesCard.css);
+
 /* Footer component */
 @import url(./components/Footer/Footer.css);
