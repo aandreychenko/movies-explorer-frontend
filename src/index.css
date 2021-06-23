@@ -40,5 +40,8 @@
 /* MoviesCard component */
 @import url(./components/MoviesCard/MoviesCard.css);
 
+/* Profile component */
+@import url(./components/Profile/Profile.css);
+
 /* Footer component */
 @import url(./components/Footer/Footer.css);

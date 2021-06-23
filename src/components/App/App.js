@@ -3,6 +3,7 @@ import { Route, Switch, Redirect, useHistory } from 'react-router-dom';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
+import Profile from '../Profile/Profile';
 import Footer from '../Footer/Footer';
 
 export default function App() {
@@ -15,6 +16,9 @@ export default function App() {
         </Route>
         <Route path="/movies">
           <Movies />
+        </Route>
+        <Route path="/profile">
+          <Profile />
         </Route>
       </Switch>
       <Footer />
