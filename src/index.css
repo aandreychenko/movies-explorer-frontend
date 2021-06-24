@@ -43,5 +43,11 @@
 /* Profile component */
 @import url(./components/Profile/Profile.css);
 
+/* Register component */
+@import url(./components/Register/Register.css);
+
+/* Login component */
+@import url(./components/Login/Login.css);
+
 /* Footer component */
 @import url(./components/Footer/Footer.css);
