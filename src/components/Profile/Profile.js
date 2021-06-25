@@ -1,19 +1,21 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
-export default function Movies() {
+export default function Profile() {
   return (
-    <div className="profile">
+    <div className="profile profile_bg-color_gray">
       <div className="profile__container">
         <h1 className="profile__heading">Привет, Александр!</h1>
         <form className="profile__info">
-          <div className="profile__info-container">
-            <p className="profile__info-label">Имя</p>
-            <input className="profile__info-field" placeholder="Введите имя" />
-          </div>
-          <div className="profile__info-container">
-            <p className="profile__info-label">E-mail</p>
-            <input className="profile__info-field" placeholder="Укажите почту" />
+          <div>
+            <div className="profile__info-container">
+              <p className="profile__info-label">Имя</p>
+              <input className="profile__info-field" placeholder="Введите имя" />
+            </div>
+            <div className="profile__info-container">
+              <p className="profile__info-label">E-mail</p>
+              <input className="profile__info-field" placeholder="Укажите почту" />
+            </div>
           </div>
           <div className="profile__info-buttons">
             <button type="submit" className="profile__info-button">Редактировать</button>
