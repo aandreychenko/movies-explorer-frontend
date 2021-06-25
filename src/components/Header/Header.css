@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.header_bg-color_gray {
+  background-color: #fafafa;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;

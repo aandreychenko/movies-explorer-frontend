@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
 import Profile from '../Profile/Profile';
 import Register from '../Register/Register';
+import SavedMovies from '../SavedMovies/SavedMovies';
 import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
 import NotFound from '../NotFound/NotFound';
@@ -21,6 +22,11 @@ export default function App() {
         <Route path="/movies">
           <Header />
           <Movies />
+          <Footer />
+        </Route>
+        <Route path="/saved-movies">
+          <Header />
+          <SavedMovies />
           <Footer />
         </Route>
         <Route path="/profile">

@@ -34,6 +34,9 @@
 /* Movies component */
 @import url(./components/Movies/Movies.css);
 
+/* SavedMovies component */
+@import url(./components/SavedMovies/SavedMovies.css);
+
 /* SearchForm component */
 @import url(./components/SearchForm/SearchForm.css);
 

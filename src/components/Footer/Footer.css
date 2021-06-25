@@ -3,6 +3,10 @@
   padding: 79px 70px 20px 70px;
 }
 
+.footer_bg-color_gray {
+  background-color: #fafafa;
+}
+
 .footer__text {
   font-size: 13px;
   margin: 0;

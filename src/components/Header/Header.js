@@ -18,7 +18,7 @@ export default function Header() {
           </header>
         </Route>
         <Route path="/movies">
-          <header className="header">
+          <header className="header header_bg-color_gray">
             <div className="header__container">
               <img className="header__logo" src={logoPath} alt="Логотип 'Мувис Эксплорера'" />
               <div className="header__nav">
@@ -36,7 +36,7 @@ export default function Header() {
           </header>
         </Route>
         <Route path="/saved-movies">
-          <header className="header">
+          <header className="header header_bg-color_gray">
             <div className="header__container">
               <img className="header__logo" src={logoPath} alt="Логотип 'Мувис Эксплорера'" />
               <div className="header__nav">
