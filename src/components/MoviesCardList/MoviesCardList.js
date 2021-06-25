@@ -3,7 +3,7 @@ import MoviesCard from '../MoviesCard/MoviesCard';
 
 export default function MoviesCardList() {
   return (
-    <div className="movies-card-list">
+    <section className="movies-card-list">
       <div className="movies-card-list__container">
         <div className="movies-card-list__grid">
           <MoviesCard />
@@ -16,6 +16,6 @@ export default function MoviesCardList() {
           <p className="movies-card-list__cut-text">Ещё</p>
         </button>
       </div>
-    </div>
+    </section>
   );
 }

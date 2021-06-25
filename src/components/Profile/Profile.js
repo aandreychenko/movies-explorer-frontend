@@ -3,7 +3,7 @@ import { Link, Route } from 'react-router-dom';
 
 export default function Profile() {
   return (
-    <div className="profile profile_bg-color_gray">
+    <main className="profile profile_bg-color_gray">
       <div className="profile__container">
         <h1 className="profile__heading">Привет, Александр!</h1>
         <form className="profile__info">
@@ -23,6 +23,6 @@ export default function Profile() {
           </div>
         </form>
       </div>
-    </div>
+    </main>
   );
 }

@@ -5,9 +5,9 @@ export default function NavTab(props) {
   return (
     <nav className="navtab">
       <div className="navtab__container">
-        <Link to="#about" className="navtab__link">О проекте</Link>
-        <Link to="#about" className="navtab__link">Технологии</Link>
-        <Link to="#about" className="navtab__link">Студент</Link>
+        <a href="#about-project" className="navtab__link">О проекте</a>
+        <a href="#techs" className="navtab__link">Технологии</a>
+        <a href="#about-me" className="navtab__link">Студент</a>
       </div>
     </nav>
   );

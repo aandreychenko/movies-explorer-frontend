@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Techs(props) {
   return (
-    <div className="techs">
+    <section className="techs" id="techs">
       <h2 className="techs__header">Технологии</h2>
       <div className="techs__container">
         <div className="techs__container-item">
@@ -19,6 +19,6 @@ export default function Techs(props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

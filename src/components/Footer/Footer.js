@@ -10,9 +10,9 @@ export default function Header(props) {
           <div className="footer__info">
             <p className="footer__copyright">© 2021</p>
             <div>
-              <Link to="/signup" className="footer__link">Яндекс.Практикум</Link>
-              <Link to="/signup" className="footer__link">Github</Link>
-              <Link to="/signup" className="footer__link">Facebook</Link>
+              <a href="https://praktikum.yandex.ru" className="footer__link">Яндекс.Практикум</a>
+              <a href="https://github.com/aandreychenko" className="footer__link">Github</a>
+              <a href="https://www.facebook.com/alexander.andreychenko" className="footer__link">Facebook</a>
             </div>
           </div>
         </footer>

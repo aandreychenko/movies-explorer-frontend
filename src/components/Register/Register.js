@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import registerLogoPath from '../../images/register__logo.svg'
+import { Link } from 'react-router-dom';
 
 export default function Register() {
   return (
-    <div className="register">
+    <main className="register">
       <div className="register__container">
         <form className=" register__form">
           <p className="register__form-label">Имя</p>
@@ -20,6 +19,6 @@ export default function Register() {
           <Link to="/signin" className="register__info-link">Войти</Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

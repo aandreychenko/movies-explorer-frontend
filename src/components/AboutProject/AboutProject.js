@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutProject(props) {
   return (
-    <div className="about-project">
+    <section className="about-project" id="about-project">
       <h2 className="about-project__header">О проекте</h2>
       <div className="about-project__container">
         <div className="about-project__container-description">
@@ -22,6 +22,6 @@ export default function AboutProject(props) {
           <p className="about-project__info-item about-project__info-item_color_gray">Front-end</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
