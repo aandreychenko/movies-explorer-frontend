@@ -1,18 +1,120 @@
 .search-form {
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.search-form__container {
+  margin: 0 70px;
+  padding: 70px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.search-form__search-container {
+  display: grid;
+  grid-template-columns: 1fr 226px;
   justify-content: space-between;
   align-items: center;
-  max-width: 1280px;
+  border-radius: 9px;
+  min-height: 72px;
+  background-color: #fff;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+}
+
+.search-form__search-field-container {
+  border-right: 1px solid #cbcbcb;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-form__search-icon {
+  width: 17px;
+  height: 15px;
+  background: url(../../images/search-icon.svg) no-repeat center;
+  margin-left: 28px;
+  margin-right: 7px;
+}
+
+.search-form__search-field {
+  justify-self: stretch;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  min-height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+.search-form__search-field::placeholder {
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+.search-form__submit {
+  width: 80px;
+  height: 34px;
+  border: none;
+  border-radius: 17px;
+  background: url(../../images/search-button.svg) no-repeat center;
+  margin-right: 19px;
+}
+
+.search-form__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form__label-text {
+  font-size: 13px;
+}
+
+.search-form__pseudo-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 20px;
+  margin-right: 14px;
+}
+
+.search-form__item_el_extra-options {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.search-form__pseudo-item_type_checkbox {
+  background-image: url(../../images/tumb-off.svg);
+}
+
+.search-form__item_el_extra-options:checked + .search-form__pseudo-item_type_checkbox {
+  background-image: url(../../images/tumb-on.svg);
+}
+
+.search-form__item_el_extra-options:focus + .search-form__pseudo-item_type_checkbox {
+  box-shadow: 0 0 5px #fff6c5;
+}
+
+/* ---------------- */
+/* 
+.search-form {
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
+  padding: 70px 70px 0;
 }
 
 .search-form__container {
   display: grid;
   grid-template-columns: 1fr 167px;
-  margin: 0 70px;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 0 83px 0;
   border-bottom: 1px solid #e8e8e8;
+  border-radius: 9px;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
 }
 
 .search-form__search-field-container {
@@ -20,21 +122,28 @@
   position: relative;
   align-items: center;
   margin-right: 41px;
+  border-right: 1px solid #cbcbcb
+}
+
+.search-form__search-icon {
+  width: 15px;
+  height: 15px;
+  background: url(../../images/search-icon.svg) no-repeat center;
 }
 
 .search-form__search-field {
-  height: 48px;
+  min-height: 40px;
   width: 100%;
-  border-radius: 24px;
-  border: 1px solid #e8e8e8;
+  border: none;
   padding: 0 22px 0 22px;
+  margin: 11px 0;
 }
 
 .search-form__submit {
   position: absolute;
   right: 8px;
-  top: 7px;
-  width: 34px;
+  top: 14px;
+  width: 80px;
   height: 34px;
   border: none;
   border-radius: 17px;
@@ -71,36 +180,4 @@
 
 .search-form__item_el_extra-options:focus + .search-form__pseudo-item_type_checkbox {
   box-shadow: 0 0 5px #fff6c5;
-}
-
-/*.search-form__label {
-  display: block;
-  margin: 35px auto 0;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.search-form__item {
-  border: 0;
-  width: 100%;
-  height: 24px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #bcbcc4;
-  background-color: transparent;
-  margin-top: 5px;
-  font-size: 14px;
-  font-family: inherit;
-}
-
-.form__item:focus {
-  outline-color: #fff6c5;
-}
-
-.form__item_el_extra-options:disabled + .form__pseudo-item_type_checkbox {
-  border: 1px solid grey;
-}
-
-.form__item_el_extra-options:disabled:checked + .form__pseudo-item_type_checkbox {
-  background-image: url(https://code.s3.yandex.net/web-code/tick_grey.svg);
-}
-*/
+} */
