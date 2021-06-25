@@ -49,6 +49,9 @@
 /* Profile component */
 @import url(./components/Profile/Profile.css);
 
+/* Preloader component */
+@import url(./components/Preloader/Preloader.css);
+
 /* Register component */
 @import url(./components/Register/Register.css);
 

@@ -9,6 +9,7 @@ import SavedMovies from '../SavedMovies/SavedMovies';
 import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
 import NotFound from '../NotFound/NotFound';
+import Preloader from '../Preloader/Preloader';
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
           <NotFound />
         </Route>
       </Switch>
+      <Preloader />
     </div>
   )
 }
