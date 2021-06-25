@@ -1,6 +1,9 @@
 /* Reset styles */
 @import url(./vendor/normalize.css);
 
+/* Font styles */
+@import url(./vendor/fonts.css);
+
 /* Application styles */
 @import url(./components/App/App.css);
 
@@ -51,3 +54,6 @@
 
 /* Footer component */
 @import url(./components/Footer/Footer.css);
+
+/* NotFound component */
+@import url(./components/NotFound/NotFound.css);

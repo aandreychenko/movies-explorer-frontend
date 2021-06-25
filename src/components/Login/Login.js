@@ -6,8 +6,6 @@ export default function Login() {
   return (
     <div className="login">
       <div className="login__container">
-        <img className="login__logo" src={registerLogoPath} />
-        <h1 className="login__heading">Рады видеть!</h1>
         <form className=" login__form">
           <p className="login__form-label">E-mail</p>
           <input type="email" className="login__form-field" placeholder="Укажите почту" />

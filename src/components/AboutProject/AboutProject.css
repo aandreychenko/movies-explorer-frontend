@@ -1,21 +1,31 @@
-.about-project__container {
-  margin: 0 70px;
-  display: flex;
-  flex-direction: column;
+.about-project {
+  margin: 0 auto;
+  padding: 110px 70px 100px 70px;
 }
 
 .about-project__header {
   font-size: 22px;
   letter-spacing: -0.04em;
-  margin: 110px 0 0 0;
+  margin: 0;
   padding-bottom: 23px;
   border-bottom: 1px solid #000;
   font-weight: 400;
 }
 
-.about-project__subcontainer-item {
+.about-project__container {
   display: flex;
+  flex-direction: column;
   margin-top: 70px;
+}
+
+.about-project__container-description {
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+
+.about-project__container-item {
+  max-width: 550px;
 }
 
 .about-project__container-item-header {
@@ -35,7 +45,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
-	margin-top: 92px;
+	margin-top: 110px;
   grid-gap: 0;
   justify-items: stretch;
   align-items: center;

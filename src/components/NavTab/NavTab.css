@@ -1,16 +1,28 @@
 .navtab {
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.navtab__container {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  min-height: 66px;
   margin: 0 auto;
-  background-color: #000;
 }
 
 .navtab__link {
-  color: #fff;
-  font-size: 13px;
-  margin-right: 40px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px 17px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
 }
 
 .nav-link:last-child {

@@ -7,6 +7,7 @@ import Profile from '../Profile/Profile';
 import Register from '../Register/Register';
 import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
+import NotFound from '../NotFound/NotFound';
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         <Route exact path="/" >
           <Header />
           <Main />
-          <Footer />
+         {/*  <Footer /> */}
         </Route>
         <Route path="/movies">
           <Header />
@@ -27,10 +28,15 @@ export default function App() {
           <Profile />
         </Route>
         <Route path="/signup">
+          <Header />
           <Register />
         </Route>
         <Route path="/signin">
+          <Header />
           <Login />
+        </Route>
+        <Route path="/*">
+          <NotFound />
         </Route>
       </Switch>
       {/* <Switch>

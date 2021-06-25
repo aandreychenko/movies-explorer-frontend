@@ -6,8 +6,6 @@ export default function Register() {
   return (
     <div className="register">
       <div className="register__container">
-        <img className="register__logo" src={registerLogoPath} />
-        <h1 className="register__heading">Добро пожаловать!</h1>
         <form className=" register__form">
           <p className="register__form-label">Имя</p>
           <input className="register__form-field" placeholder="Введите имя" />

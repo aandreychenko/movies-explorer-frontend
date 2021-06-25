@@ -3,9 +3,9 @@ import React from "react";
 export default function AboutProject(props) {
   return (
     <div className="about-project">
+      <h2 className="about-project__header">О проекте</h2>
       <div className="about-project__container">
-        <h2 className="about-project__header">О проекте</h2>
-        <div className="about-project__subcontainer-item">
+        <div className="about-project__container-description">
           <div className="about-project__container-item">
             <h3 className="about-project__container-item-header">Дипломный проект включал 5 этапов</h3>
             <p className="about-project__container-item-paragraph">Составление плана, работу над бэкендом, вёрстку, добавление функциональности и финальные доработки.</p>
