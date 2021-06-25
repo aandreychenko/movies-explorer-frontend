@@ -3,8 +3,8 @@ import React from "react";
 export default function Techs(props) {
   return (
     <div className="techs">
+      <h2 className="techs__header">Технологии</h2>
       <div className="techs__container">
-        <h2 className="techs__header">Технологии</h2>
         <div className="techs__container-item">
           <h3 className="techs__container-item-header">7 технологий</h3>
           <p className="techs__container-item-paragraph">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>

@@ -1,11 +1,11 @@
 .footer {
-  margin: 0 70px;
+  margin: 0 auto;
+  padding: 79px 70px 20px 70px;
 }
 
 .footer__text {
   font-size: 13px;
-  padding-top: 79px;
-  margin-bottom: 20px;
+  margin: 0;
   text-align: center;
   color: #a0a0a0;
 }
@@ -15,8 +15,13 @@
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
+  padding-top: 20px;
   border-top: 1px solid #e8e8e8;
+}
+
+.footer__copyright {
+  margin: 0;
 }
 
 .footer__link {

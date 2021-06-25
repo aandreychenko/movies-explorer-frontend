@@ -16,7 +16,7 @@ export default function App() {
         <Route exact path="/" >
           <Header />
           <Main />
-         {/*  <Footer /> */}
+          <Footer />
         </Route>
         <Route path="/movies">
           <Header />

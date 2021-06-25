@@ -5,8 +5,8 @@ import signPath from "../../images/portfolio__sign.svg";
 export default function Portfolio(props) {
   return (
     <div className="portfolio">
+      <h2 className="portfolio__header">Портфолио</h2>
       <div className="portfolio__container">
-        <h2 className="portfolio__header">Портфолио</h2>
         <div className="portfolio__container-item">
           <div className="portfolio__container-link">
             <Link to="#staticsite" className="portfolio__container-item-link">Статичный сайт</Link>

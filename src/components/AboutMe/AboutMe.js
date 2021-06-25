@@ -4,8 +4,8 @@ import myPhotoPath from "../../images/portrait.jpg";
 export default function AboutMe(props) {
   return (
     <div className="about-me">
+      <h2 className="about-me__header">Студент</h2>
       <div className="about-me__container">
-        <h2 className="about-me__header">Студент</h2>
         <div className="about-me__container-item">
           <div className="about-me__subcontainer-item">
             <h3 className="about-me__container-item-header">Александр</h3>
