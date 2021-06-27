@@ -7,7 +7,7 @@ export default function MoviesCard() {
     <Switch>
       <Route path="/movies">
         <div className="movies-card">
-          <img className="movies-card__still" src={MovieStillPath} />
+          <img className="movies-card__still" src={MovieStillPath} alt="Кадр из фильма" />
           <div className="movies-card__info">
             <p className="movies-card__title">33 слова о дизайне</p>
             <button type="button" className="movies-card__button movies-card__button_type_saved" />
@@ -17,7 +17,7 @@ export default function MoviesCard() {
       </Route>
       <Route path="/saved-movies">
         <div className="movies-card">
-          <img className="movies-card__still" src={MovieStillPath} />
+          <img className="movies-card__still" src={MovieStillPath} alt="Кадр из фильма" />
           <div className="movies-card__info">
             <p className="movies-card__title">33 слова о дизайне</p>
             <button type="button" className="movies-card__button movies-card__button_type_delete" />

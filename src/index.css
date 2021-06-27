@@ -63,3 +63,6 @@
 
 /* NotFound component */
 @import url(./components/NotFound/NotFound.css);
+
+/* Navigation component */
+@import url(./components/Navigation/Navigation.css);

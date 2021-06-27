@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import signPath from "../../images/portfolio__sign.svg";
 
 export default function Portfolio(props) {

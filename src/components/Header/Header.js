@@ -74,7 +74,7 @@ export default function Header() {
         <Route path="/signup">
           <header className="header">
             <div className="header__container header__container_page_register">
-              <img className="header__logo" src={logoPath} />
+              <img className="header__logo" src={logoPath} alt="Логотип Мувис Эксплорера" />
               <h1 className="header__heading">Добро пожаловать!</h1>
             </div>
           </header>
@@ -82,7 +82,7 @@ export default function Header() {
         <Route path="/signin">
           <header className="header">
             <div className="header__container header__container_page_register">
-              <img className="header__logo" src={logoPath} />
+              <img className="header__logo" src={logoPath} alt="Логотип Мувис Эксплорера" />
               <h1 className="header__heading">Рады видеть!</h1>
             </div>
           </header>

@@ -10,6 +10,7 @@ import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
 import NotFound from '../NotFound/NotFound';
 import Preloader from '../Preloader/Preloader';
+import Navigation from '../Navigation/Navigation';
 
 export default function App() {
   return (
@@ -41,6 +42,9 @@ export default function App() {
         <Route path="/signin">
           <Header />
           <Login />
+        </Route>
+        <Route path="/navigation">
+          <Navigation />
         </Route>
         <Route path="/*">
           <NotFound />
