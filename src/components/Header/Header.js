@@ -32,6 +32,7 @@ export default function Header() {
                 className="header__account-name">Аккаунт</Link>
                 <div className="header__account-logo"></div>
               </div>
+              <button type="button" className="header__menu-icon"></button>
             </div>
           </header>
         </Route>
@@ -50,6 +51,7 @@ export default function Header() {
                 className="header__account-name">Аккаунт</Link>
                 <div className="header__account-logo"></div>
               </div>
+              <button type="button" className="header__menu-icon"></button>
             </div>
           </header>
         </Route>
@@ -68,6 +70,7 @@ export default function Header() {
                 className="header__account-name">Аккаунт</Link>
                 <div className="header__account-logo"></div>
               </div>
+              <button type="button" className="header__menu-icon"></button>
             </div>
           </header>
         </Route>
