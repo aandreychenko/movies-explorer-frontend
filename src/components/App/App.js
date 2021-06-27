@@ -18,30 +18,30 @@ export default function App() {
       <Switch>
         <Route exact path="/" >
           <Header />
-          {/* <Main /> */}
+          <Main />
           <Footer />
         </Route>
         <Route path="/movies">
           <Header />
-          {/* <Movies /> */}
+          <Movies />
           <Footer />
         </Route>
         <Route path="/saved-movies">
           <Header />
-          {/* <SavedMovies /> */}
+          <SavedMovies />
           <Footer />
         </Route>
         <Route path="/profile">
           <Header />
-          {/* <Profile /> */}
+          <Profile />
         </Route>
         <Route path="/signup">
           <Header />
-          {/* <Register /> */}
+          <Register />
         </Route>
         <Route path="/signin">
           <Header />
-          {/* <Login /> */}
+          <Login />
         </Route>
         <Route path="/navigation">
           <Navigation />
