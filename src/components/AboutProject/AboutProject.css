@@ -54,8 +54,8 @@
   align-items: stretch;
 }
 
-.about-project__info-item_bg-color_green {
-  background-color: #2be080;
+.about-project__info-item_bg-color_blue {
+  background-color: #3456f3;
 }
 
 .about-project__info-item_bg-color_gray {
@@ -66,6 +66,10 @@
   color: #a0a0a0;
 }
 
+.about-project__info-item_text-color_white {
+  color: #fff;
+}
+
 .about-project__info-item {
   min-height: 36px;
   font-size: 14px;
@@ -73,4 +77,65 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project {
+    padding: 90px 50px 85px 50px;
+  }
+
+  .about-project__container-description {
+    gap: 30px;
+  }
+
+  .about-project__info {
+    margin-top: 93px;
+  }
+
+  .about-project__info {
+    margin-top: 93px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .about-project {
+    padding: 70px 18px 58px 18px;
+  }
+
+  .about-project__header {
+    padding-bottom: 28px;
+  }
+
+  .about-project__container {
+    margin-top: 60px;
+  }
+
+  .about-project__container-description {
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .about-project__container-item-header {
+    font-size: 18px;
+  }
+
+  .about-project__container-item-paragraph {
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+
+  .about-project__info {
+    grid-template-columns: 1fr 2fr;
+    margin-top: 60px;
+  }
+
+  .about-project__info-item {
+    min-height: 35px;
+    font-size: 11px;
+  }
+
+  .about-project__header {
+    font-size: 18px;
+  }
 }

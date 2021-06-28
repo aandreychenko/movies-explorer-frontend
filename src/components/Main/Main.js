@@ -11,10 +11,10 @@ export default function Main(props) {
     <main className="main">
       <Promo />
       <NavTab />
-      {/* <AboutProject />
+      <AboutProject />
       <Techs />
       <AboutMe />
-      <Portfolio /> */}
+      <Portfolio />
     </main>
   );
 }

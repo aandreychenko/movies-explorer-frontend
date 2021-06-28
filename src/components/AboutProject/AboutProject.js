@@ -16,7 +16,7 @@ export default function AboutProject(props) {
           </div>
         </div>
         <div className="about-project__info">
-          <p className="about-project__info-item about-project__info-item_bg-color_green">1 неделя</p>
+          <p className="about-project__info-item about-project__info-item_bg-color_blue about-project__info-item_text-color_white">1 неделя</p>
           <p className="about-project__info-item about-project__info-item_bg-color_gray">4 недели</p>
           <p className="about-project__info-item about-project__info-item_color_gray">Back-end</p>
           <p className="about-project__info-item about-project__info-item_color_gray">Front-end</p>

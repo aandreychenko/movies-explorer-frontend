@@ -7,7 +7,7 @@ export default function AboutMe(props) {
       <h2 className="about-me__header">Студент</h2>
       <div className="about-me__container">
         <div className="about-me__container-item">
-          <div className="about-me__subcontainer-item">
+          <div className="about-me__subcontainer-item about-me__info">
             <h3 className="about-me__container-item-header">Александр</h3>
             <p className="about-me__container-item-subheader">Фронтенд-разработчик, 33 года</p>
             <p className="about-me__container-item-paragraph">
@@ -17,7 +17,7 @@ export default function AboutMe(props) {
               <a href="https://github.com/aandreychenko" className="about-me__container-item-info-item">Github</a>
             </div>
           </div>
-          <div className="about-me__subcontainer-item">
+          <div className="about-me__subcontainer-item about-me__photo">
             <img className="about-me__container-item-photo" src={myPhotoPath} alt="Портрет Александра Андрейченко" />
           </div>
         </div>

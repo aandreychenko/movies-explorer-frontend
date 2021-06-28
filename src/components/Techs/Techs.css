@@ -60,3 +60,43 @@
 .techs__info-item:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .techs {
+    padding: 90px 50px;
+  }
+
+  .techs__container-item-header {
+    margin: 80px 0 22px 0;
+  }
+
+  .techs__container-item-paragraph {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .techs__info-item {
+    min-height: 57px;
+    min-width: 84px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .techs {
+    padding: 70px 18px;
+  }
+
+  .techs__header {
+    font-size: 18px;
+  }
+
+  .techs__container-item-header {
+    font-size: 30px;
+    margin: 60px 0 24px 0;
+  }
+
+  .techs__container-item-paragraph {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

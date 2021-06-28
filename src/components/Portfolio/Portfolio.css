@@ -37,3 +37,37 @@
   text-decoration: none;
   color: #000;
 }
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding: 0 50px 90px 50px;
+  }
+  
+  .portfolio__container-item-link {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .portfolio {
+    padding: 0 14px 70px 14px;
+  }
+
+  .portfolio__header {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .portfolio__container-item-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .portfolio__container-link {
+    padding-bottom: 19px;
+  }
+
+  .portfolio__container-item-sign {
+    transform: scale(.6);
+  }
+}
