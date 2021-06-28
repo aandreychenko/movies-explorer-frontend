@@ -14,3 +14,30 @@
   line-height: 58px;
   letter-spacing: -0.04em;
 }
+
+@media screen and (max-width: 768px) {
+  .promo__container {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 0 24px 0 24px;
+    }
+
+    .promo__heading {
+      font-size: 40px;
+      line-height: 52px;
+      padding: 350px 0 380px 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+  .promo__container {
+    margin: 14px 14px 0 14px;
+    padding: 0;
+  }
+
+  .promo__heading {
+    font-size: 29px;
+    line-height: 37px;
+    padding: 220px 0 255px 0;
+  }
+}
