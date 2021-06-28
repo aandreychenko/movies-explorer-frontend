@@ -10,8 +10,8 @@ export default function Main(props) {
   return (
     <main className="main">
       <Promo />
-      {/* <NavTab />
-      <AboutProject />
+      <NavTab />
+      {/* <AboutProject />
       <Techs />
       <AboutMe />
       <Portfolio /> */}

@@ -14,17 +14,35 @@
 }
 
 .navtab__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 12px;
   line-height: 16px;
   font-weight: 500;
   color: #000;
   margin-right: 10px;
   text-decoration: none;
-  padding: 10px 17px;
   background-color: #e8e8e8;
   border-radius: 10px;
+  min-width: 96px;
+  min-height: 36px;
 }
 
 .nav-link:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 475px) {
+  .navtab__link {
+    font-size: 10px;
+    margin-right: 6px;
+    min-width: 82px;
+    min-height: 26px;
+    border-radius: 6px;
+  }
+
+  .navtab__container {
+    bottom: 17px;
+  }
 }
