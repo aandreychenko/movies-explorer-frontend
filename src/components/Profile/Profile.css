@@ -64,3 +64,35 @@
 .profile__info-button_weight_middle {
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  .profile__heading {
+    margin: 236px 0 96px 0;
+  }
+
+  .profile__info-buttons {
+    margin-top: 210px;
+  }
+
+  .profile__container {
+    padding-bottom: 269px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .profile__heading {
+    margin: 70px 0 80px 0;
+  }
+
+  .profile__info-container {
+    min-width: 260px;
+  }
+
+  .profile__info-buttons {
+    margin-top: 379px;
+  }
+
+  .profile__container {
+    padding-bottom: 40px;
+  }
+}

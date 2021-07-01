@@ -24,7 +24,7 @@
   align-items: flex-start;
   max-width: 396px;
   margin: 0 auto;
-  padding: 70px 0 40px 0;
+  padding: 70px 0 22px 0;
   box-sizing: border-box;
 }
 
@@ -135,5 +135,9 @@
 
   .header__heading {
     margin-top: 50px;
+  }
+
+  .header__container_page_register {
+    padding-bottom: 62px;
   }
 }

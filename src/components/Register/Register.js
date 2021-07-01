@@ -12,6 +12,7 @@ export default function Register() {
           <input type="email" className="register__form-field" placeholder="Укажите почту" />
           <p className="register__form-label">Пароль</p>
           <input type="password" className="register__form-field" placeholder="Придумайте пароль" />
+          <p className="register__form-error register__form-error_visible">Что-то пошло не так...</p>
           <button type="submit" className="register__form-button">Зарегистрироваться</button>
         </form>
         <div className="register__info">
