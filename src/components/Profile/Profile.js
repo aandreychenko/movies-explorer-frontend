@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from '../Navigation/Navigation';
 
 export default function Profile() {
   return (
@@ -22,6 +23,7 @@ export default function Profile() {
           </div>
         </form>
       </div>
+      <Navigation />
     </main>
   );
 }

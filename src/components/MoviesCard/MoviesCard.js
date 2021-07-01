@@ -9,20 +9,24 @@ export default function MoviesCard() {
         <div className="movies-card">
           <img className="movies-card__still" src={MovieStillPath} alt="Кадр из фильма" />
           <div className="movies-card__info">
-            <p className="movies-card__title">33 слова о дизайне</p>
-            <button type="button" className="movies-card__button movies-card__button_type_saved" />
+            <div className="movies-card__info-title">
+              <p className="movies-card__title">33 слова о дизайне</p>
+              <button type="button" className="movies-card__button movies-card__button_type_saved" />
+            </div>
+            <p className="movies-card__info-timeline">1ч 42м</p>
           </div>
-          <p className="movies-card__timeline">1ч 42м</p>
         </div>
       </Route>
       <Route path="/saved-movies">
         <div className="movies-card">
           <img className="movies-card__still" src={MovieStillPath} alt="Кадр из фильма" />
           <div className="movies-card__info">
-            <p className="movies-card__title">33 слова о дизайне</p>
-            <button type="button" className="movies-card__button movies-card__button_type_delete" />
+            <div className="movies-card__info-title">
+              <p className="movies-card__title">33 слова о дизайне</p>
+              <button type="button" className="movies-card__button movies-card__button_type_saved" />
+            </div>
+            <p className="movies-card__info-timeline">1ч 42м</p>
           </div>
-          <p className="movies-card__timeline">1ч 42м</p>
         </div>
       </Route>
     </Switch>

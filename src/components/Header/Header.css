@@ -2,6 +2,7 @@
   min-height: 74px;
   padding: 18px 70px;
   box-sizing: border-box;
+  background-color: #fafafa;
 }
 
 .header__menu-icon {

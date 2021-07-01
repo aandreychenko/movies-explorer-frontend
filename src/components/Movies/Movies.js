@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchForm from '../SearchForm/SearchForm';
+import Navigation from '../Navigation/Navigation';
 import MoviesCardList from '../MoviesCardList/MoviesCardList';
 
 export default function Movies() {
@@ -7,6 +8,7 @@ export default function Movies() {
     <main className="movies">
       <SearchForm />
       <MoviesCardList />
+      <Navigation />
     </main>
   );
 }

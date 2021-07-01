@@ -1,6 +1,7 @@
 .portfolio {
   margin: 0 auto;
   padding: 0 70px 125px 70px;
+  background-color: #fafafa;
 }
 
 .portfolio__header {
